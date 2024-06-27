@@ -1,0 +1,16 @@
+[package]
+name = "ex"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+xml = "0.8.20"
+toml = "0.8.12"
+home = "0.5.9"
+regex = "1.10.4"
+indicatif = "0.17.8"
+futures-util = "0.3.30"
+tokio = { version = "1.38.0", features = ["full"] }
+figment = { version = "0.10.18", features = ["toml"] }
+serde = { version = "1.0.201", features = ["derive"] }
+reqwest = { version = "0.12.5", features = ["stream"] }
